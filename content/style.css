@@ -17,3 +17,15 @@ body {
 h1{
     color: #000;
 }
+
+.snowflake {
+    position: fixed;
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    pointer-events: none;
+    user-select: none;
+    opacity: 0.4;
+    animation: fall 200s linear infinite; /* Increase duration for slower snowfall */
+}

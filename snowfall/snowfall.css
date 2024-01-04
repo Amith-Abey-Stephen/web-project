@@ -1,8 +1,5 @@
-body{
-    background-color: blue;
-}
 .snowflake {
-    position: absolute;
+    position: fixed;
     background: #fff;
     width: 5px;
     height: 5px;
@@ -10,14 +7,14 @@ body{
     pointer-events: none;
     user-select: none;
     opacity: 0.4;
-    animation: fall 100s linear infinite;
+    animation: fall 200s linear infinite; /* Increase duration for slower snowfall */
 }
 
 @keyframes fall {
     from {
-        transform: translateY(-5vh);
+        transform: translateY(-100vh);
     }
     to {
-        transform: translateY(105vh);
+        transform: translateY(100vh);
     }
 }
