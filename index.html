@@ -11,6 +11,10 @@
     <h3>Entering into the<h2>World of  <h1>ARDUINO</h1></h3></h2>
     </p>
     
+
+    <div id="loading-bar-container">
+        <div id="loading-bar"></div>
+    </div>
 <!-- <button><a href="content/index.html">Click Here</a></button> -->
     <script>
         // Set the duration of the delay in milliseconds (e.g., 5000 for 5 seconds)
@@ -19,6 +23,23 @@
         setTimeout(() => {
             window.location.href = "content/index.html";
         }, 5000);
+
+         // Simulate loading progress
+         function simulateLoading() {
+            var loadingBar = document.getElementById('loading-bar');
+            var width = 0;
+            var interval = setInterval(function() {
+                if (width >= 100) {
+                    clearInterval(interval);
+                } else {
+                    width++;
+                    loadingBar.style.width = width + '%';
+                }
+            }, 50);
+        }
+
+        // Call the loading simulation function
+        simulateLoading();
     </script>
 </body>
 </html>
