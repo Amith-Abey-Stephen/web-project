@@ -1,0 +1,16 @@
+body {
+    background-color: #000;
+    margin: 0px;
+    
+}
+
+
+.heading{
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    /* margin: 0px; */
+
+}
