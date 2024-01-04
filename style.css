@@ -1,7 +1,7 @@
 body{
-    
     margin: 0px;
     background: linear-gradient(to left, #140e07, #033a3c);
+
 }
 
 h3{
@@ -53,3 +53,10 @@ h1{
     background-color: #4caf50;
     border-radius: 10px;
     transition: width 0.5s ease-in-out;
+}
+
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
