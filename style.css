@@ -36,3 +36,10 @@ h1{
     font-family: monospace;
     text-shadow:5px 5px 3px #d5ecec;
 }
+
+
+button{
+    align-items: center;
+    text-decoration: none;
+    
+}
