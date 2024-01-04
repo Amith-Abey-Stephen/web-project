@@ -1,0 +1,38 @@
+body{
+    
+    margin: 0px;
+    background: linear-gradient(to left, #140e07, #033a3c);
+}
+
+h3{
+    font-size: 30px;
+    color: rgb(255, 0, 217);
+    text-align: left;
+    margin-top:90px ;
+    margin-left: 290px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow:5px 5px 3px #d5ecec;
+}
+
+
+h2{
+    font-size: 40px;
+    color: rgb(255, 166, 0);
+    text-align: left;
+    margin-top:90px ;
+    margin-left: 650px;
+    font-family:cursive;
+    text-shadow:5px 5px 3px #d5ecec;
+}
+
+
+
+h1{
+    font-size: 50px;
+    color: rgb(255, 0, 217);
+    text-align: left;
+    margin-top:90px ;
+    margin-left: 950px;
+    font-family: monospace;
+    text-shadow:5px 5px 3px #d5ecec;
+}
