@@ -13,14 +13,13 @@
     
 
     <script>
-        // Set the duration of the loading screen in milliseconds (10 seconds in this example)
-        const loadingDuration = 10000;
+        // Set the duration of the delay in milliseconds (e.g., 5000 for 5 seconds)
+        const delayDuration = 5000;
 
-        // Wait for the specified duration, then redirect to the original site
         setTimeout(() => {
+            // Redirect to the "content" folder index.html after the delay
             window.location.href = "content/index.html";
-        }, loadingDuration);
+        }, delayDuration);
     </script>
-    
 </body>
 </html>
