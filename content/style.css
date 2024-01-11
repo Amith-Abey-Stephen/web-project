@@ -27,17 +27,7 @@ body {
     -webkit-box-reflect: below -1px linear-gradient(transparent,rgba(44, 186, 230, 0.15));
     /* box-shadow: #db5151 1px 5px 50px; */
 }
-/* .snowflake {
-    position: fixed;
-    background: #fff;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    pointer-events: none;
-    user-select: none;
-    opacity: 0.4;
-    animation: fall 200s linear infinite; /* Increase duration for slower snowfall */
-} */
+
 
 .heading .searchplace{
     height: 35px;
