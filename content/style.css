@@ -37,6 +37,12 @@ body {
     opacity: 0.4;
     animation: fall 200s linear infinite; /* Increase duration for slower snowfall */
 }
+
+#searchInput{
+    height: 35px;
+    border: rgb(60, 130, 229) solid 5px;
+    box-shadow:  #db5151 1px 15px 90px;
+}
 /* 
 p{
     box-shadow:  #db5151 1px 15px 9px;
