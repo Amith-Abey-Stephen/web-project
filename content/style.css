@@ -19,14 +19,15 @@ body {
 
 .heading h1{
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     color: #ffffff;
-    text-shadow: #db5151 1px 15px 40px;
-    /* box-shadow: #3e99f5 0px 1px 50px; */
+    text-shadow: #53bbef 0px 0px 20px;
+    -webkit-box-reflect: below -1px linear-gradient(transparent,rgba(44, 186, 230, 0.15));
+    /* box-shadow: #db5151 1px 5px 50px; */
 }
-.snowflake {
+/* .snowflake {
     position: fixed;
     background: #fff;
     width: 5px;
@@ -36,12 +37,12 @@ body {
     user-select: none;
     opacity: 0.4;
     animation: fall 200s linear infinite; /* Increase duration for slower snowfall */
-}
+} */
 
 .heading .searchplace{
     height: 35px;
     border: rgb(60, 130, 229) solid 5px;
-    box-shadow:  #db5151 1px 15px 90px;
+    box-shadow:  #53bbef 0px 0px 80px 13px;
 }
 /* 
 p{
