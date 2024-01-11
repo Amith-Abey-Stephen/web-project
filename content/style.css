@@ -1,23 +1,25 @@
 body {
-    background-color: #000;
+    background-color: #f5efef;
     margin: 0px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 
 .heading{
-    height: 50px;
+    height: 200px;
     width: 100%;
-    background-color: aliceblue;
+    background-color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
-    color: #000;
+    color: #fbeeee;
+    font-size: 40px;
 }
 
-h1{
-    color: #000;
+.heading h1{
+    color: #ffffff;
+    text-shadow: #db5151 1px 15px 5px;
+    box-shadow: #3e99f5 0px 1px 5px;
 }
-
 .snowflake {
     position: fixed;
     background: #fff;
