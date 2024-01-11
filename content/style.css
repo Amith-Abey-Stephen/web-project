@@ -6,6 +6,7 @@ body {
 
 
 .heading{
+   
     height: 200px;
     width: 100%;
     background-color: rgb(0, 0, 0);
@@ -13,12 +14,17 @@ body {
     padding: 10px;
     color: #fbeeee;
     font-size: 40px;
+
 }
 
 .heading h1{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     color: #ffffff;
-    text-shadow: #db5151 1px 15px 5px;
-    box-shadow: #3e99f5 0px 1px 5px;
+    text-shadow: #db5151 1px 15px 40px;
+    /* box-shadow: #3e99f5 0px 1px 50px; */
 }
 .snowflake {
     position: fixed;
