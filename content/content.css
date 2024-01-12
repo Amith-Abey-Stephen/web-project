@@ -84,6 +84,19 @@ a:active{
     border-radius: 60px;
 }
 
+.aboutus{
+    text-align: center;
+    display: grid;
+    background-color: tomato;
+}
+
+
+.contactus{
+    text-align: center;
+    background-color: blueviolet;
+    height: 200px;
+    width: 100%;
+}
 footer {
     background-color: #333;
     color: white;
