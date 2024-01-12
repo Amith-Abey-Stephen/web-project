@@ -2,6 +2,10 @@ body {
     background-color: #f5efef;
     margin: 0px;
     color: rgb(0, 0, 0);
+    height: 99.9%; 
+    width: 99%; 
+    /* overflow: scroll; Enable both vertical and horizontal scrollbars */
+    
 }
 
 
@@ -25,6 +29,7 @@ body {
     color: #ffffff;
     text-shadow: #53bbef 0px 0px 20px;
     -webkit-box-reflect: below -1px linear-gradient(transparent,rgba(44, 186, 230, 0.15));
+    letter-spacing: 10px;
     /* box-shadow: #db5151 1px 5px 50px; */
 }
 
@@ -32,7 +37,54 @@ body {
 .heading .searchplace{
     height: 35px;
     border: rgb(60, 130, 229) solid 5px;
-    box-shadow:  #53bbef 0px 0px 80px 13px;
+    box-shadow:  #53bbef 0px 0px 130px 13px;
+}
+
+nav{
+    position: absolute;
+    top:0px; 
+    left: 50px;
+    font-size: 20px;
+    box-shadow:  #db5151 1px 1px 10px 1px;
+    /* text-decoration: none;
+    color: #f5efef; */
+
+}
+
+nav a{
+    /* word-spacing: 5px; */
+}
+
+a{
+    text-decoration: none;
+    color: #f5efef;
+}
+a:active{
+    text-decoration: none;
+    color: #53bbef;
+
+}
+
+
+.blog-container {
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+
+    text-align: center;
+}
+
+.blog-container img{
+    height: 170px;
+    width: 300px;
+}
+
+.blog-container h3{
+    
+    
 }
 /* 
 p{
