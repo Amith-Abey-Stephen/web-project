@@ -105,13 +105,28 @@
 </div>
 
 
-<div class="contactus">
+<div class="contact">
     <h1>Contact Us</h1>
-<input type="text">Username...
-<input type="text" name="" id="">Password.....
-<br>
-<br>
-<input type="submit">
+
+<form id="contactForm" action="https://formspree.io/f/myyrzwpo" method="POST">
+    <label for="Name">Name</label><br>
+    <input type="text" placeholder="Enter your full name" id="name" name="name" required>
+
+   
+    <label for="Email-ID">Email-ID</label>
+    <input type="email" placeholder="Enter your email" id="email" name="email" required>
+    <!-- <br>
+    <label for="Phone No.">Phone No.</label><br>
+    <input type="text" placeholder="Enter your phone number">
+    <br>
+    <label for="Subject">Subject</label><br>
+    <input type="text" placeholder="type the subject"> -->
+    <br>
+    <label for="Message">Message</label><br>
+    <textarea name="Message" id="Msg" cols="30" rows="5" placeholder="            Message" id="message" name="message" required ></textarea>
+     <br><input type="submit" id="sbt">
+</form>
+
 </div>
 
 

@@ -18,8 +18,8 @@ body {
     padding: 10px;
     color: #fbeeee;
     font-size: 40px;
-
 }
+
 
 .heading h1{
     position: absolute;
@@ -40,6 +40,7 @@ body {
     box-shadow:  #53bbef 0px 0px 130px 13px;
 }
 
+
 nav{
     position: absolute;
     top:0px; 
@@ -48,21 +49,18 @@ nav{
     box-shadow: #53bbef  1px 1px 10px 1px;
     /* text-decoration: none;
     color: #f5efef; #db5151*/
-
 }
 
-nav a{
-    /* word-spacing: 5px; */
-}
 
 a{
     text-decoration: none;
     color: #f5efef;
 }
+
+
 a:active{
     text-decoration: none;
     color: #53bbef;
-
 }
 
 
@@ -78,11 +76,13 @@ a:active{
     border-radius: 40px;
 }
 
+
 .blog-container img{
     height: 170px;
     width: 300px;
     border-radius: 60px;
 }
+
 
 .aboutus{
     text-align: center;
@@ -91,19 +91,60 @@ a:active{
 }
 
 
-.contactus{
-    text-align: center;
-    background-color: blueviolet;
-    height: 200px;
-    width: 100%;
+.contact form label{
+    text-align: left;
+    justify-content: left;
 }
+
+
+.contact{
+    background-color: #951c1c;
+    padding: 1px;
+    text-align: c;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.contact form{
+margin-left: 30%;
+justify-content: center;
+}
+
+
+.contact h1{
+    text-align: center;
+}
+
+
+form input{
+    background-color: #f6f6f6;
+    padding: 10px;
+    font-size: 15px;
+    color: #ff1b1b;
+}
+
+
+form textarea{
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    color: #ff0000;
+}
+
+
+#sbt{
+    background-color: #d68f8f;
+    padding: 10px;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 20px;
+}
+
+
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
 }
-/* 
-p{
-    box-shadow:  #db5151 1px 15px 9px;
-} */
