@@ -85,18 +85,18 @@ a:active{
 
 
 .aboutus{
-    /* height: 700px; */
-    /* background: url(/content/bright-pop-landscape-design.jpg); */
+    height: 70%;
+    width: auto;
+    background: url(/content/bright-pop-landscape-design.jpg);
+    /* min-height: 400px; */
+    background-attachment:fixed
+    background-repeat: no-repeat;
     text-align: center;
     display: grid;
     /* background-color: tomato; */
 }
 
-#baa{
-    background: url(/content/bright-pop-landscape-design.jpg);
-    position: relative;
-      z-index: 2;
-}
+
 .contact form label{
     text-align: left;
     justify-content: left;
