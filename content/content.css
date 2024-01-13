@@ -85,12 +85,18 @@ a:active{
 
 
 .aboutus{
+    /* height: 700px; */
+    /* background: url(/content/bright-pop-landscape-design.jpg); */
     text-align: center;
     display: grid;
-    background-color: tomato;
+    /* background-color: tomato; */
 }
 
-
+#baa{
+    background: url(/content/bright-pop-landscape-design.jpg);
+    position: relative;
+      z-index: 2;
+}
 .contact form label{
     text-align: left;
     justify-content: left;
