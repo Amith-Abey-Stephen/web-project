@@ -21,7 +21,7 @@
         <nav>
             <a href="">HOME</a>&emsp;
             <a href="">ABOUT</a>&emsp;
-            <a href="">CONTACT US</a>&emsp;
+            <a href="#contactus">CONTACT US</a>&emsp;
             <a href="https://blog.inovuslabs.org/" target="_blank" id="blo">MORE BLOGS</a>&emsp;
         </nav>
 
@@ -30,7 +30,7 @@
    <!-- =========HEADING END========= -->
     
       <!-- =========ABOUT START========= -->
-<div class="aboutus">
+<div class="aboutus" id="aboutus">
     
     <h1 id="baa">About Us</h1>
     <div class="con">
@@ -179,14 +179,14 @@
    
 
 <!-- ========CONTACT START========= -->
-<div class="contact">
+<div class="contact" id="contactus">
     <h1 style="text-align: center;">Contact Us</h1>
 
     <form id="contactForm" action="https://formspree.io/f/myyrzwpo" method="POST">
-        <label for="Name">Name</label><br>
-        <input type="text" placeholder="Enter your full name" id="name" name="name" required>
+        <label for="Name" >Name</label><br>
+        <input type="text" placeholder="Enter your full name" id="name" name="name" required autocomplete="name">
         <label for="Email-ID">Email-ID</label>
-        <input type="email" placeholder="Enter your email" id="email" name="email" required>
+        <input type="email" placeholder="Enter your email" id="email" name="email" required autocomplete="email">
         <br>
         <label for="Message">Message</label><br>
         <textarea name="Message" id="Msg" cols="30" rows="5" placeholder="            Message" id="message" name="message" required ></textarea>
