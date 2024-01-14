@@ -88,7 +88,9 @@ a:active{
     height: 70%;
     width: auto;
     background: url(bright-pop-landscape-design.jpg);
-    /* min-height: 400px; */
+    /* -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
     background-attachment:fixed
     background-repeat: no-repeat;
     text-align: center;
@@ -97,45 +99,40 @@ a:active{
 }
 
 
+.contact{
+    background-color: #951c1c;
+    /* padding: 0px;
+    height: 100%;
+    width:  100%; */
+    /* text-align: center; */
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
 .contact form label{
     text-align: left;
     justify-content: left;
 }
 
-
-.contact{
-    background-color: #951c1c;
-    padding: 1px;
-    text-align: c;
-    justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
 .contact form{
-margin-left: 30%;
+margin-left: 0%;
 justify-content: center;
 }
-
-
-.contact h1{
-    text-align: center;
-}
- 
 
 form input{
     background-color: #f6f6f6;
     padding: 10px;
     font-size: 15px;
-    color: #ff1b1b;
+    color: #000000;
+    text-align: center;
 }
-
-
 form textarea{
     background-color: #ffffff;
     padding: 10px;
     font-size: 16px;
-    color: #ff0000;
+    color: #000000;
 }
 
 
@@ -145,6 +142,7 @@ form textarea{
     font-size: 16px;
     color: #000000;
     border-radius: 20px;
+    align-items: center;
 }
 
 
