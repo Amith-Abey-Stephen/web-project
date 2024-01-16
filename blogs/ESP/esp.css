@@ -65,24 +65,6 @@ a:active{
 }
 
 
-.aboutus{
-    height: 70%;
-    width: auto;
-    background: url(/blogs/Arduino/bright-pop-landscape-design.jpg);
-    color: #f5efef;
-    /* background-image: url(bright-pop-landscape-design.jpg); */
-    object-fit: contain;
-    /* -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent; */
-    background-attachment:fixed
-    background-repeat: no-repeat;
-    text-align: center;
-    display: grid;
-    /* background-color: tomato; */
-}
-
-
 .blog-container {
     background-color: #fbeeee;
     display: inline-block;
@@ -102,6 +84,22 @@ a:active{
     border-radius: 60px;
 }
 
+
+.aboutus{
+    height: 70%;
+    width: auto;
+    background: url(bright-pop-landscape-design.jpg);
+    background-image: url(bright-pop-landscape-design.jpg);
+    object-fit: contain;
+    /* -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-attachment:fixed
+    background-repeat: no-repeat;
+    text-align: center;
+    display: grid;
+    /* background-color: tomato; */
+}
 
 
 .contact{
